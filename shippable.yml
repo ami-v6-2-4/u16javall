@@ -9,7 +9,7 @@ jdk:
  
 build:
   pre_ci_boot:
-    image_name: drydock/u16phpall
+    image_name: drydock/u16javall
     image_tag: v6.2.4
     pull: true
     
@@ -19,4 +19,3 @@ build:
    # - mvn --version    
    # - ant -version 
    # - gradle --version 
- 
